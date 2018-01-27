@@ -13,16 +13,20 @@ Enable execution perms:
 And use it like this:
 
 //get deps
+
 ./dgo get myproject
 
 //build
+
 ./dgo build myproject
 bin/myproject
 
 //test
+
 ./dgo test myproject
 
 //run
+
 ./dgo run src/myproject/main.go
 
 ./dgo version
