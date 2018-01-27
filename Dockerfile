@@ -4,4 +4,4 @@ RUN apk add --no-cache git
 
 EXPOSE 8080
 
-WORKDIR /app
+WORKDIR /go
