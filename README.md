@@ -4,7 +4,7 @@ Dockerfile to build a go dev environment
 where you have your src folder
 create a dgo file with:
   
-  docker run --rm -it -v $PWD:/go golang:1.9-alpine3.7 go "$@"
+  docker run --rm -it -v $PWD:/go aguspiza/go-dev go "$@"
 
 Enable execution perms:
   
